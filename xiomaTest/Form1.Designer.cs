@@ -72,6 +72,7 @@
             this.inSearch = new System.Windows.Forms.TextBox();
             this.label21 = new System.Windows.Forms.Label();
             this.btnUpdate = new System.Windows.Forms.Button();
+            this.label22 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dtDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -503,6 +504,15 @@
             this.btnUpdate.UseVisualStyleBackColor = false;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(860, 581);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(41, 13);
+            this.label22.TabIndex = 48;
+            this.label22.Text = "label22";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -510,6 +520,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(126)))), ((int)(((byte)(214)))), ((int)(((byte)(223)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(1390, 617);
+            this.Controls.Add(this.label22);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.inSearch);
@@ -611,6 +622,7 @@
         private System.Windows.Forms.TextBox inSearch;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.Label label22;
     }
 }
 
